@@ -211,17 +211,16 @@
     }
 
     .video-container {
-      max-width: 800px;
-      margin: 0 auto;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-    .video-container video {
-      width: 100%;
-      display: block;
-    }
+.intro-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
     /* Cards */
     .cards {
@@ -544,10 +543,9 @@
       <p class="reveal">Proyecto: Puerta Automática con Arduino</p>
       
       <div class="video-container reveal">
-        <video autoplay muted loop>
-          <img src="img/Copia de INTRO.gif" alt="Intro animada">
-        </video>
-      </div>
+  <img src="img/Copia de INTRO.gif" alt="Animación de intro" class="intro-gif">
+</div>
+
     </section>
 
     <section>
@@ -664,6 +662,4 @@
     });
   </script>
 </body>
-
 </html>
-
